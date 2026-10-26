@@ -14,7 +14,6 @@ foreach ($names as $name) {
 
     if (count($tickets) > 0) {
 
-        // Показываем, какие билеты есть в наличии
         echo «Билеты в наличии:<br>»;
         foreach ($tickets as $t) {
             echo «- $t<br>»;
